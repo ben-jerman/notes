@@ -14,7 +14,36 @@ Falling into that second category, I think having a living catalogue of componen
 
 For the other 20%? What can I say. Dig deep into the filters of Digikey, Mouser or Farnell. Read a book an comb through datasheets. Sacrifice a chicken. It just comes with the territory ;)
 
-## How do we go about it?
+## Who is this meant for?
 
-We go about it by answering a question: "What are the most common things I'd want to do?" Here are some ideas:
+The information gathered here will probably be most of use to hobbyists, students or beginners, but I hope that even seasoned EE's will find some useful stuff as well. And if there are any seasoned EE's reading this and vehemently disagreeing with the options presented below? I'd be really glad if you contact me and help me improve this for everyone.
 
+# 2. How do we go about it?
+
+## What should we focus on?
+
+We should focus on the most common things you need to do with your electronics. Once you have that down and you won't need to use most of your energy to think about how to design a switching power supply because you only have 24V available and everything you want to do needs only 3.3, you can spend that energy on the parts of the circuit which are actually "special".
+
+That being said, there need to be some constraints in order to prevent bloat:
+
+1. Most components shall be SMT. SMT production techniques are now widely and cheaply available even to hobbyists (I'd argue that they're even easier than THT most of the time) and their multiple benefits are too great to be ignored. Still, if the component is only available in THT or it makes sense from an engineering perspective (e.g. for mechanical reasons) then THT is not an issue.
+2. The components need to be widely available. Granted, it's 2021Q4 and the component shortage is still raging all over the place, so some leeway will be required here.
+3. The components need to be reasonably cheap. Some manufacturers make amazing IC's which can do *exactly* what you need them to and make you coffee at the same time, but cost like 15$ a pop (looking at you Maxim). Not much use as a "jellybean" part.
+
+# 3. You talk a lot.
+
+I know. Let's get into it then:
+
+I often need to...
+
+* Connect wires to the PCB
+* Use USB on my designs
+* Power logic-level (3.3/5V) IC's from a higher voltage
+* Power split-supply OP-amps from a single-ended PSU
+* Add wireless connectivity
+* Add Ethernet (wired) connectivity
+* Signal things with blinking LED's
+* Use a MCU
+* Use a Op-amp for Audio signal conditioning
+* Use an op-amp for general signal conditioning (up to 12 volts)
+* Switch large loads with a MCU
