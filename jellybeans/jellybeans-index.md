@@ -26,13 +26,18 @@ We should focus on the most common things you need to do with your electronics. 
 
 That being said, there need to be some constraints in order to prevent bloat:
 
-1. Most components shall be SMT. SMT production techniques are now widely and cheaply available even to hobbyists (I'd argue that they're even easier than THT most of the time) and their multiple benefits are too great to be ignored. Still, if the component is only available in THT or it makes sense from an engineering perspective (e.g. for mechanical reasons) then THT is not an issue.
+1. Most components shall be SMT. SMT production techniques are now widely and cheaply available even to hobbyists (I'd argue that they're even easier than THT most of the time) and their multiple benefits are too great to be ignored. Still, if the component is only available in THT or it makes sense from an engineering perspective (e.g. for mechanical or thermal reasons) then THT is not an issue.
 
 
 2. The components need to be widely available. Granted, it's 2021Q4 and the component shortage is still raging all over the place, so some leeway will be required here.
 
 
 3. The components need to be reasonably cheap. Some manufacturers make amazing IC's which can do *exactly* what you need them to and make you coffee at the same time, but cost like 15$ a pop (looking at you Maxim). Not much use as a "jellybean" part.
+
+## What we shall NOT focus on:
+
+This depository is not meant to be a general basic electronics guide or tutorial. There are many amazing educational websites and video channels that will describe the basics to you so I'd refer you to google if this is why you're here.
+In order to understand this website you will need to understand basic EE terminology (such as for example, what is a pull-up/pull-down resistor, what is a high or low side switching, what is an ADC and similar).
 
 # 3. You talk a lot.
 
