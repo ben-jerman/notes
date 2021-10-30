@@ -4,7 +4,7 @@
 
 In my experience, the most daunting obstacle when starting a new hardware project wasn't the system design, requirement definitions or software architecture - it was the headache of choosing the correct components (out from hundreds of thousands of possibilities) to do the job you want of them.
 
-A lot of this comes with experience - the more HW projects you make, the larger your knowledge of coomponent selection will be. You won't need to dig around the catalogues of major distributors to find the exact part you need (and sometimes hope desperately that's in stock) because you'll just pull the design from some previous project and the parts from your shelf.
+A lot of this comes with experience - the more HW projects you make, the larger your knowledge of component selection will be. You won't need to dig around the catalogues of major distributors to find the exact part you need (and sometimes hope desperately that's in stock) because you'll just pull the design from some previous project and the parts from your shelf.
 
 For someone just starting out, though - that can be a completely different story.
 
@@ -27,7 +27,11 @@ We should focus on the most common things you need to do with your electronics. 
 That being said, there need to be some constraints in order to prevent bloat:
 
 1. Most components shall be SMT. SMT production techniques are now widely and cheaply available even to hobbyists (I'd argue that they're even easier than THT most of the time) and their multiple benefits are too great to be ignored. Still, if the component is only available in THT or it makes sense from an engineering perspective (e.g. for mechanical reasons) then THT is not an issue.
+
+
 2. The components need to be widely available. Granted, it's 2021Q4 and the component shortage is still raging all over the place, so some leeway will be required here.
+
+
 3. The components need to be reasonably cheap. Some manufacturers make amazing IC's which can do *exactly* what you need them to and make you coffee at the same time, but cost like 15$ a pop (looking at you Maxim). Not much use as a "jellybean" part.
 
 # 3. You talk a lot.
