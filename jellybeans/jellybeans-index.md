@@ -40,7 +40,7 @@ I know. Let's get into it then:
 
 I often need to...
 
-* Connect wires to the PCB
+* [Connect wires to the PCB](jellybeans-connectors.md)
 * Use USB on my designs
 * Power logic-level (3.3/5V) IC's from a higher voltage
 * Power split-supply OP-amps from a single-ended PSU

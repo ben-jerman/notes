@@ -4,6 +4,8 @@
 
     These connectors are a very common way to connect wires with larger current-carrying capacity to your PCB. You can use these wires to either power the PCB with an external PSU or interface the PCB with other tech. They mostly come with 5,00 or 5,08 mm pin spacing with multiple options (such as # of positions, some are pluggable, right angle or straight). The most basic (and thus versatile) is the 5,08 mm 2-position non-pluggable screw terminal such as:
 
+    ![Terminal Block](resources/terminal-block.png)
+
     | Name                  | Manufacturer  | Man. part Number  | Octopart Link |
     | -------------         | ------------- | ------------      | ------------- |
     | WR-TBL Series 2135    | Wurth         | 691213510002      | [Link](https://octopart.com/search?q=691213510002&currency=USD&specs=0)
