@@ -56,3 +56,4 @@ I often need to...
 * Use a Op-amp for Audio signal conditioning
 * Use an op-amp for general signal conditioning (up to 12 volts)
 * Switch large loads with a MCU
+* Power the design with 1-cell Li-ion
